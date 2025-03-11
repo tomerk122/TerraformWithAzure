@@ -111,5 +111,5 @@ resource "azurerm_linux_virtual_machine" "vm" {
 #ssh -i ~/.ssh/azure_key azureuser@40.117.76.50
 # we assume that the public key is in the same directory as the terraform file
 # for creating the key pair use the following command
-# ssh-keygen -t rsa -b 2048 -f ~/.ssh/azure_key -C azureuser
+# ssh-keygen -t rsa -b 2048 -f ~/.ssh/azure_key -C azureuser.
 
