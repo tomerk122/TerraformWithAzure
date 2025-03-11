@@ -41,3 +41,9 @@ docs/
 
 # VSCode specific
 .vscode/
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
